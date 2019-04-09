@@ -23,8 +23,10 @@ body {
   font-size:        105%;
   padding:          15px;
   margin:           0px 10px 10px 10px;
-  width:            280px;
-  float:            right;
+  position: absolute;
+  top:128px;
+  right:0px;
+  width:280px;
 }
 
 #footer {
@@ -66,3 +68,22 @@ a:visited {
   margin-left: auto;
   margin-right: auto;
 }
+.FOO{
+width:200px;
+  height:200px;
+  border:1px green solid;
+  position:absolute;
+  top:0px;
+  left:100px;
+  z-index:1;
+}
+.DOO{
+  width:200px;
+    height:200px;
+    border:1px rgb(0, 225, 255) solid;
+    position:absolute;
+    top:0px;
+    left:100px;
+    z-index:6;
+  }
+  
