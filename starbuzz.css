@@ -11,15 +11,6 @@ body {
   height:           108px;
 }
 
-#tableContainer {
-  display: table;
-  border-spacing: 10px;
-}
-
-#tableRow {
-  display: table-row;
-}
-
 #main {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
@@ -34,10 +25,7 @@ body {
   font-size:        105%;
   padding:          15px;
   vertical-align: top;
-  position: absolute;
-  top:128px;
-  right:0px;
-  width:280px;
+
 }
 
 #footer {
@@ -71,31 +59,34 @@ a:visited {
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
 }
-
-.FOO{
-width:200px;
-  height:200px;
-  border:1px green solid;
-  position:absolute;
-  top:0px;
-  left:100px;
-  z-index:1;
+div#tableContainer{
+  display:table;
+  border-spacing: 10px;
 }
-.DOO{
-  width:200px;
-    height:200px;
-    border:1px rgb(0, 225, 255) solid;
-    position:absolute;
-    top:0px;
-    left:100px;
-    z-index:6;
-  }
-  #drink {
+div#tableRow{
+  display:table-row;
+}
+#drink {
+  display:table-cell;
+  background-color:#efe5d0;
+  width:20%;
+  padding:15px;
+  vertical-align:top;
+}
+.HL{
+  display:inline-block;
+  float:left;
+  background-image: url(images/header.gif);
+  width:400px;
+  height: 100px;
+}
+.HR{
+  display:inline-block;
+  float:right;
+  background-image: url(images/header.gif);
+  width:400px;
+  height: 100px;
+  background-position: -400px,0px;
+}
 
-    background-color:#efe5d0;
-    width:20%;
-    padding:15px;
-    vertical-align:top;
-  }
-  
   
